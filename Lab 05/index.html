@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles.css">
+	<title> Lab 5: Working With User Input</title>
+</head>
+<body>
+	<header>
+		<h1>Working With User Input
+			<input id="query" type="search" placeholder="Search" aria-label="search">
+			<button id="searchButton">Search</button>
+		</h1>
+	</header>
+	<main>
+		<section>
+			<h2>Inputs</h2>
+			<div>
+				<label for="name">Enter Your Name:</label>
+				<input value="default value">
+			</div>
+			<div>
+				<label for="color">Pick A Color:</label>
+				<input type="color" value="#ff0000">
+			</div>
+			<div>
+				<label for="color">Date of Birth:</label>
+				<input type="date" value="2021-01-01">
+			</div>
+		</section>
+		<section>
+			<h2>Numbers</h2>
+			<label for="age">Enter Your Age</label>
+			<input id="age" type="number" max="150">
+		</section>
+		<section>
+			<h2>Ranges</h2>
+			<label for="height"></label>
+			<input id="height" type="range" value="50">
+  			<div id="heightTarget"></div>
+		</section>
+		<section id="colours">
+  			<h2>Colours</h2>
+  			<label for="bg">Background: </label>
+  			<input id="bg" type="color" value="#ffffff"><br>
+  			<label for="fg">Foreground: </label>
+  			<input id="fg" type="color" value="#000000">
+		</section>
+		<section>
+			<form id="loginButton" action="file:///C:/Users/Mike/OneDrive/Documents/Coursework/Level%204-6%20%20-%20Computer%20Science/Year%204/CTEC3905%20-%20Front-End%20Web%20Development/Web%20Files/Lab%2005/login.html">
+				<button id="login"  type="submit">Login</button>
+			</form>
+		</section>
+	</main>
+		<script src="scripts.js"></script>
+</body>
+</html>
